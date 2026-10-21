@@ -91,18 +91,7 @@ The dataset contains historical electricity consumption and solar generation dat
 <img src="https://github.com/neuralarin/Energy-Demand-Forecasting-Project/blob/main/images/5.acf_and_pacf_plots.png" width="100%">
 
 ### 6. Actual vs Predicted Load Values
-<img src="https://github.com/neuralarin/Energy-Demand-Forecasting-Project/blob/main/images/6.actual_vs_predicted_load_values" width="100%">
-
----
-
-## 📈 Results Summary
-
-| Model                          | Status            |
-| ------------------------------ | ----------------- |
-| ARIMA                          | 🏆 Champion Model |
-| Electricity Demand Forecasting | ✅ Completed       |
-| Solar Generation Forecasting   | ✅ Completed       |
-| Model Evaluation               | ✅ RMSE Calculated |
+<img src="https://github.com/neuralarin/Energy-Demand-Forecasting-Project/blob/main/images/6.actual_vs_predicted_load_values.png" width="100%">
 
 ---
 
