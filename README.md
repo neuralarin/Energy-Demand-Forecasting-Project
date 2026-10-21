@@ -1,33 +1,21 @@
 # Electricity Demand & Solar Generation Forecasting ⚡
 
-## 🏭 Business Domain
-
-Energy Management & Smart Grid Analytics
-
----
-
-## 🤔 Problem Statement
-
-Accurate forecasting of electricity demand and solar power generation is essential for efficient energy management. Reliable forecasts help optimize resource allocation, reduce operational costs, and support better decision-making for power systems.
+## 🙂 Overview
+This project focuses on forecasting electricity demand and solar power generation using historical data and ARIMA models. This project was built to understand time series analysis and forecasting techniques.
 
 ---
 
-## 🎯 Project Objective
-
-Built a time series forecasting system to predict electricity demand and solar power generation using historical data and ARIMA models.
-This is a **learning project** developed to understand time series analysis and forecasting techniques.
+## 💡 Problem Statement & Business Impact
+- Fluctuating electricity demand and solar power generation make energy planning challenging.
+- **Goal:** Built an ARIMA-based forecasting system to predict electricity demand and solar power generation.
+- **Business value:** Supports efficient resource allocation, reduces operational costs, and improves energy management and grid planning.
 
 ---
 
 ## 📊 Dataset Overview
 
 The dataset contains historical electricity consumption and solar generation data collected over time.
-
-### Features Used
-
-* IT Load
-* Solar Generation
-* Timestamp / Time-based Records
+**Features:** `IT_load_new`, `IT_solar_generation`, `utc_timestamp`
 
 ---
 
@@ -47,6 +35,7 @@ The dataset contains historical electricity consumption and solar generation dat
 ```
 ├── data
 │   └── data.csv
+├── images
 ├── notebooks
 │   └── Notebook.ipynb
 ├── .gitignore
@@ -81,6 +70,28 @@ The dataset contains historical electricity consumption and solar generation dat
 
 * Evaluated forecasting performance using RMSE.
 * Visualized prediction results.
+
+---
+
+## 📈 Data Visualization
+
+### 1. Load And Solar Generation Over Time 
+<img src="https://github.com/neuralarin/Energy-Demand-Forecasting-Project/blob/main/images/1.load_and_solar_generation_over_time.png" width="100%">
+
+### 2. Solar Generation Over Time 
+<img src="https://github.com/neuralarin/Energy-Demand-Forecasting-Project/blob/main/images/2.solar_generation_over_time.png" width="100%">
+
+### 3. ACF (Autocorrelation Function) plot and PACF (Partial Autocorrelation Function) plot
+<img src="https://github.com/neuralarin/Energy-Demand-Forecasting-Project/blob/main/images/3.acf_and_pacf_plots.png" width="100%">
+
+### 4. Actual vs Predicted Load Values
+<img src="https://github.com/neuralarin/Energy-Demand-Forecasting-Project/blob/main/images/4.actual_vs_predicted_load_values.png" width="100%">
+
+### 5. ACF (Autocorrelation Function) plot and PACF (Partial Autocorrelation Function) plot
+<img src="https://github.com/neuralarin/Energy-Demand-Forecasting-Project/blob/main/images/5.acf_and_pacf_plots.png" width="100%">
+
+### 6. Actual vs Predicted Load Values
+<img src="https://github.com/neuralarin/Energy-Demand-Forecasting-Project/blob/main/images/6.actual_vs_predicted_load_values" width="100%">
 
 ---
 
